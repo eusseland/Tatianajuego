@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Mensaje Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenida al juego, mi amor!</h1>
+        <p>Haz clic en las piezas para revelar el mensaje secreto. Cada pieza tiene una parte del mensaje.</p>
+        <div id="game-board">
+            <div class="piece" onclick="revealPiece(0)">?</div>
+            <div class="piece" onclick="revealPiece(1)">?</div>
+            <div class="piece" onclick="revealPiece(2)">?</div>
+            <div class="piece" onclick="revealPiece(3)">?</div>
+            <div class="piece" onclick="revealPiece(4)">?</div>
+            <div class="piece" onclick="revealPiece(5)">?</div>
+        </div>
+        <div id="message" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
